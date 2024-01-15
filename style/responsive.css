@@ -1,0 +1,68 @@
+.container{
+    margin-left: 110px;
+    margin-right:110px ;
+    width: 992px;
+}
+
+/* header section */
+.travel{
+display: flex;
+}
+.header-title{
+color: #FF5400;
+}
+.travel h2{
+    font-size: 36px;
+}
+nav >ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 600px;
+    margin-top: -55px;
+    display: none;
+}
+/* banner section */
+.banner {
+background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+border-radius: 16px;
+width: 992px;
+height: 400px;
+
+
+
+}
+.banner ,h2 ,p{
+ text-align: center;
+
+}
+.btn{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+text-align: left;
+
+}
+@media screen  and (max-width:600px) {
+    .hed{
+        font-size: 22px;
+        
+        
+      }
+      .banner{
+        width: 335px;
+        height: 483px;
+        border-radius: 16px;
+      }
+      .container{
+        margin-left:10px;
+        margin-right:0px ;
+        width: 600px;
+    }  
+    .nav ul{
+        display:block;
+        
+    }
+    
+}
