@@ -20,7 +20,7 @@ nav >ul{
     list-style: none;
     padding-left: 600px;
     margin-top: -55px;
-    display:none;
+    display:;
     
 }
 /* banner section */
@@ -376,6 +376,9 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 300;
 
+}
+.Twiest{
+    border: 1px solid salmon;
 }
  /* media quary section */
 @media screen  and (max-width:600px) {
