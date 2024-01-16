@@ -20,7 +20,7 @@ nav >ul{
     list-style: none;
     padding-left: 600px;
     margin-top: -55px;
-    display: none;
+    display:;
     
 }
 /* banner section */
@@ -387,8 +387,11 @@ font-weight: 300;
     .hed{
         font-size: 22px;  
       }
-      nav ,ul{
-        display: block;
+      nav,i{
+
+    padding-left: 150px;
+    size: 24px;
+        
       }
       .banner{
         width: 335px;
@@ -528,10 +531,12 @@ line-height: 24px;
         flex-direction: column;
     }
     .Newsletter{
+        padding-left: 10px;
+        margin-top: 70px;
         width: 335px;
 height: 353px;
 border-radius: 16px;
-border: 1px solid #FF5400;
+border: 1px solid white;
     }
     .save{
         width: 350px;
