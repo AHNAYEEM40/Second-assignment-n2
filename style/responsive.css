@@ -106,6 +106,102 @@ font-weight: 600;
 border-radius: 8px;
 background: #FF5400;
 }
+/* country sectiono */
+.country{
+
+    margin-top: 200px;
+
+}
+.Maldeves{
+    background-image: url(../Images/Rectangle\ 5.png);
+    width: 500px;
+height: 300px;
+border-radius: 16px;
+text-align: center;
+
+}
+.Indonosia{
+    background-image: url(../Images/Rectangle\ 8.png);
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    text-align: center;
+padding-left: 10px;
+}
+ .male-title{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+padding-top: 150px;
+justify-content: center;
+ }
+ .country-1{
+    display: flex;
+    gap: 10px;
+ }
+ .country-2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px ;
+ }
+ .country-3{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px ;
+ }
+ .country-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+
+ }
+ .country-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+ }
+ .Srilanka{
+    background-image:url(../Images/Rectangle\ 6.png) ;
+    background-repeat: no-repeat;
+    width: 374px;
+height: 286px;
+border-radius: 16px;
+ }
+ .North-America{
+background-image: url(../Images/Rectangle\ 7.png);
+background-repeat: no-repeat;
+width: 474px;
+height: 286px;
+border-radius: 16px;
+ }
+ .Kashmir{
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 274px;
+height: 286px;
+border-radius: 16px;
+ }
+ .Bangladesh{
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    width: 473px;
+height: 300px;
+border-radius: 16px;
+ }
+ .Bandarban{
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    width: 673px;
+height: 300px;
+border-radius: 16px;
+ }
 @media screen  and (max-width:600px) {
     .container{
         margin-left:10px;
@@ -159,7 +255,71 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     .middle-descr >ul {
         margin-left:-25px;
     }
- }  
+    .country-title{
+        color: #131318;
+text-align:center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+padding-right: 200px;
+
+}
+.country-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align:left;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+    .country{
+        margin-top:500px;
+    }
+    .country-1{
+        flex-direction: column;
+         width: 35px;
+         height: 150px;
+        border-radius: 16px;
+        margin-top: 100px;
+    }
+    .Srilanka{
+        width:350px;
+    }
+    .Maldeves{
+        width: 350px;
+    }
+    .Bangladesh{
+        width: 350px;
+    }
+    .Bandarban{
+        width: 350px;
+    }
+    .Indonosia{
+        width: 350px;
+    }
+    .Kashmir{
+        width: 300px; 
+    }
+    .North-America{
+        width: 350px;
+    }
+    .country-2{
+        flex-direction: column;
+        width: 250px;
+        height: 150px;
+       border-radius: 16px;
+       margin-top: 350px;
+    }
+    .country-3{
+        flex-direction: column;
+        width: 40%;
+        height: 100px;
+       border-radius: 16px;
+       margin-top: 530px;
+    }
+    }
+ 
+  
  
 
     
