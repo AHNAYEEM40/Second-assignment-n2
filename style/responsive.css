@@ -335,13 +335,47 @@ transform: rotate(-20deg);
     margin-top:40px;
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
     background-repeat: no-repeat;
-    width: 672px;
+    width: 650px;
     height: 422px;
     border-radius: 16px;
     padding-top: 220px ;
     padding-left: 350px;
     
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.footer-img{
+    width: 40px;
+height: 46.673px;
+  padding-left:360px;
+  padding-top: 200px;
+}
+.footerb{
+    padding-bottom: 100px;
+    margin-bottom:10px;
+    padding-right:100px;
+    width: 999px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+font-family: Mulish;
+font-size: 32px;
+font-weight: 500;
+margin-top: -50px;
+
+}
+.footer-icon{
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+}
+.reset{
+    text-align: center;
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+
 }
  /* media quary section */
 @media screen  and (max-width:600px) {
@@ -533,6 +567,26 @@ padding-left: 0px;
         width: 340px;
         height: 52px;
         margin-left: 0px;
+    }
+    .footerb{
+        width: 375px;
+height: 309px;
+margin-top: 20px;
+
+    }
+    .footer-img{
+        width: 40px;
+        height: 46.673px;
+          padding-left:60px;
+          padding-top: 200px;
+    }
+    .footer-icon{
+        align-items:center;
+        justify-content:left;
+        padding-left: 90px;
+    }
+    .reset{
+        padding-right:170px;
     }
     }
  
