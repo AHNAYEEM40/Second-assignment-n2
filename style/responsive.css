@@ -493,6 +493,47 @@ line-height: 24px;
     .offer-section{
         flex-direction: column;
     }
+    .Newsletter{
+        width: 335px;
+height: 353px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+    }
+    .save{
+        width: 350px;
+height: 200px;
+border-radius: 16px;
+padding-top: 220px ;
+padding-left: 0px;
+    }
+    .offer{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 18px;
+        margin-left: 50px;
+        font-weight: 300;
+            padding-top: -20px;
+            text-align: center;
+            width: 300px;
+            height: 100px; 
+            border-radius: 16px;
+        background: #FF5400;
+        
+        transform: rotate(-22deg); 
+    }
+    .input-1 ,.input-2{
+        align-items:center;
+        width: 340px;
+    height: 52px;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 8px;
+    }
+    .button{
+        width: 340px;
+        height: 52px;
+        margin-left: 0px;
+    }
     }
  
   
