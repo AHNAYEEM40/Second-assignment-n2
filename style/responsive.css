@@ -20,6 +20,7 @@ nav >ul{
     list-style: none;
     padding-left: 600px;
     margin-top: -55px;
+    display: none;
     
 }
 /* banner section */
@@ -66,31 +67,66 @@ background: #FFF;
 text-align: left;
 
 }
+/* middle section */
+.Popular{
+    color: #131318;
+text-align:left;
+font-family: Mulish;
+font-size: 30px;
+font-weight: 800;
+}
+.Popular-p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+text-align: left;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+gap: 20px;
+}
+.rector{
+    height: 200px;
+margin-top: 50px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.middle{
+    display: flex;
+}
+.middle-descr{
+    margin-top: 50px;
+    padding-bottom: 24px;
+}
+.Read{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #FF5400;
+}
 @media screen  and (max-width:600px) {
+    .container{
+        margin-left:10px;
+        margin-right:0px ;
+        width:600px;
+    }
     .hed{
-        font-size: 22px;
-        
-        
+        font-size: 22px;  
+      }
+      nav ,ul{
+        display: block;
       }
       .banner{
         width: 335px;
         height: 600px;
         border-radius: 16px;
       }
-      .container{
-        margin-left:10px;
-        margin-right:0px ;
-        width: 600px;
-    }  
-    .nav ul{
-      
-        
-    }
-    .banner-main{
+      .banner-main{
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-    
         gap: 16px;
         border: 2px solid chocolate;
         
@@ -99,5 +135,32 @@ text-align: left;
         
         font-size: 30px;
     }
+    .middle{
+        flex-direction: column;
+        width: 335px;
+        height: 342px;
+    }
+    .middle img{
+        width: 335px;
+        height: 342px;
+        padding-bottom: 24px;
+    }
+    .Popular{
+        font-size: 20px;
+    }
+    .Popular-p{
+        font-size: 14px;
+    }
+    .rector{
+        width: 35px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    .middle-descr >ul {
+        margin-left:-25px;
+    }
+ }  
+ 
+
     
-}
+      
