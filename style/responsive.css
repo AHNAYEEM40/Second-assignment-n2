@@ -20,7 +20,7 @@ nav >ul{
     list-style: none;
     padding-left: 600px;
     margin-top: -55px;
-    display: none;
+    
 }
 /* banner section */
 .banner {
@@ -28,14 +28,36 @@ background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 border-radius: 16px;
 width: 992px;
 height: 400px;
+}
+.banner-main{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.banner-title{
+    margin-bottom: 150px;
+}
+#find{
+    /* border-radius: 5px; */
+background: #FF5400;
+}
+.Explore{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 50px;
 
-
+    font-weight: 800;
+    
 
 }
 .banner ,h2 ,p{
  text-align: center;
 
 }
+
 .btn{
     width: 174px;
 height: 52px;
@@ -52,7 +74,7 @@ text-align: left;
       }
       .banner{
         width: 335px;
-        height: 483px;
+        height: 600px;
         border-radius: 16px;
       }
       .container{
@@ -61,8 +83,21 @@ text-align: left;
         width: 600px;
     }  
     .nav ul{
-        display:block;
+      
         
+    }
+    .banner-main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    
+        gap: 16px;
+        border: 2px solid chocolate;
+        
+    }
+    .Explore{
+        
+        font-size: 30px;
     }
     
 }
