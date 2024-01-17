@@ -97,13 +97,21 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     margin-top: 50px;
     padding-bottom: 24px;
 }
+.read-box{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+}
 .Read{
     color: #FFF;
 text-align: center;
 font-family: Mulish;
-font-size: 20px;
+font-size: 30px;
+margin-left: 9px;
+margin-top: 5px;
 font-weight: 600;
-border-radius: 8px;
+border: none;
 background: #FF5400;
 }
 /* country sectiono */
