@@ -351,6 +351,26 @@ transform: rotate(-20deg);
     
 /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
+.Maldeve-title{
+font-size: 40px;
+color: #FF5400;
+text-align: left;
+}
+.Maldeve-description{
+    font-size: 20px;
+    text-align: left;
+
+}
+.Maldeve-box{
+    justify-content: center;
+    border: 1px solid tomato;
+    width: 50%;
+}
+.Maldeve{
+    margin-bottom: 100px;
+    display: flex;
+    gap: 50px;
+}
 .footer-img{
     width: 40px;
 height: 46.673px;
@@ -390,6 +410,15 @@ font-weight: 300;
 }
  /* media quary section */
 @media screen  and (max-width:600px) {
+    .Maldeve{
+        padding-left: 20px;
+        margin-top: 100px;
+        flex-direction: column;
+    
+    }
+    .Maldeve-box{
+        border: none;
+    }
     .container{
         margin-left:10px;
         margin-right:0px ;
